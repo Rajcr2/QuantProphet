@@ -2,7 +2,6 @@ import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
 
 def compute_RSI(prices, period=7):
-    """Calculates the Relative Strength Index (RSI) for a given price series."""
     delta = prices.diff()
 
     gain = (delta.where(delta > 0, 0)).rolling(window=period, min_periods=1).mean()
