@@ -1,17 +1,5 @@
 # Function: Analyze Stock Prediction Accuracy
 def analyze_stock_accuracy(stock_name, min_acc, max_acc, avg_acc):
-    """
-    Analyzes stock prediction accuracy and provides insights on stability, volatility, and investment strategy.
-    
-    Parameters:
-    stock_name (str): Name of the stock.
-    min_acc (float): Minimum accuracy of the model.
-    max_acc (float): Maximum accuracy of the model.
-    avg_acc (float): Average accuracy of the model.
-
-    Returns:
-    dict: Insights on stock stability, volatility, and investment recommendation.
-    """
     
     accuracy_range = max_acc - min_acc
     insights = {}
