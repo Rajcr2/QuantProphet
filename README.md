@@ -10,7 +10,7 @@ So, In this project, I have developed a scalable time-series forecasting pipelin
 
 1. **Prophet-based time series forecasting**
 2. **Incorporates MACD, Change %, RSI (7) as regressors**
-3. **Significant error reduction from ~400-500 points (old version) to ~200-250 points in the improved model.**
+3. **Significant reduction in the forecast deviation from ~400-500 points (old version) to ~200-250 points in the improved model.**
 
 ### Objectives
 
@@ -109,6 +109,13 @@ Other Utility Libraries : **matplotlib**, **numpy**.
 
 ### Conclusion
 
-Based on error metrics, the model has provided valuable insights. Additionally, it has captured the trend effectively, achieving approximately 60% accuracy in actual forecasts.
+
+
+https://github.com/user-attachments/assets/729014b5-e0e1-4d84-b49b-685154747cdf
+
+
+Based on error metrics, the model has provided valuable insights. For example, it has identified TCS as highly stable and best for long-term investment, even though Indian market currently facing downturn. Additionally, the model has effectively captured trends, achieving approximately 40-60% accuracy in actual forecasts.
+
+
 
 
