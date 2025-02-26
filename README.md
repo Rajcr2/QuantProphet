@@ -81,7 +81,7 @@ Other Utility Libraries : **matplotlib**, **numpy**.
 
 **Insight** :
 
-![image](https://github.com/user-attachments/assets/b792a5b0-a327-4c9a-baf4-b3bd2b42844b)
+![image](https://github.com/user-attachments/assets/e1b843f2-d87c-47be-8e6e-c4bd0a0df9bc)
 
 
 2. #### Reliance Industries Ltd.
@@ -92,7 +92,7 @@ Other Utility Libraries : **matplotlib**, **numpy**.
 
 **Insight** :
 
-![image](https://github.com/user-attachments/assets/dc9d99f2-0120-451e-ad2c-994fe32588d6)
+![image](https://github.com/user-attachments/assets/40cb3ef5-19db-4101-af07-3f96ec9ab123)
 
 
 3. #### INFOSYS
@@ -104,7 +104,7 @@ Other Utility Libraries : **matplotlib**, **numpy**.
 
 **Insight** :  
 
-![image](https://github.com/user-attachments/assets/6db6b86e-8698-4bfe-ac16-604cfdfb6ac7)
+![image](https://github.com/user-attachments/assets/2856e767-73da-4380-9281-ff2d374339f7)
 
 
 ### Conclusion
