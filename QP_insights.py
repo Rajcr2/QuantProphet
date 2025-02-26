@@ -33,7 +33,7 @@ def analyze_stock_accuracy(stock_name, min_acc, max_acc, avg_acc):
         insights["Trading Advice"] = "Can be used for swing trading and medium-term strategies."
     elif accuracy_range >= 20 and avg_acc >= 70:
         insights["Volatility"] = "High (Frequent price swings, needs active monitoring)"
-        insights["Trading Advice"] = "Ideal for short-term traders using RSI & MACD."
+        insights["Trading Advice"] = "Ideal for short-term traders."
     else:
         insights["Volatility"] = "Very High (Extremely unpredictable, risky)"
         insights["Trading Advice"] = "Best for aggressive traders, avoid long-term holding."
