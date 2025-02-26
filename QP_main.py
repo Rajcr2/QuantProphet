@@ -9,7 +9,7 @@ from QP_data import preferred_format
 # Streamlit setup
 st.set_page_config(page_title="Quantitative Market Forecasting Using Prophet & Indicators", layout="wide")
 
-st.write("## Quant Prophet")
+st.title("## Quant Prophet")
 
 # Sidebar: Upload Data
 uploaded_file = st.sidebar.file_uploader("Upload CSV file", type=["csv"])
@@ -60,9 +60,9 @@ if uploaded_file:
     stock_name = uploaded_file.name.replace(".csv", "")  # Extract stock name from file name
     stock_insights = analyze_stock_accuracy(
         stock_name, 
-        accuracy_results["Min Accuracy (%)"], 
-        accuracy_results["Max Accuracy (%)"], 
-        accuracy_results["Average Accuracy (%)"]
+        accuracy_results["Stability (Min) (%)"], 
+        accuracy_results["Stability (Max) (%)"], 
+        accuracy_results["Average Stability (%)"]
     )
 
     # Step 6: Display Stock Insights
