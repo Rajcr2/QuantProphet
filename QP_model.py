@@ -4,9 +4,7 @@ import numpy as np
 
 # Function: Train Prophet Model with MACD, Signal Line, Change %, and RSI Smooth
 def train_prophet_model(data, forecast_period=90, changepoint_scale=0.1):
-    """Trains a Prophet model with MACD, Signal Line, Change %, and RSI Smooth as regressors."""
-
-    # Define Prophet Model
+    
     model = Prophet(
         seasonality_mode="additive",
         changepoint_prior_scale=changepoint_scale,
@@ -57,16 +55,10 @@ def train_prophet_model(data, forecast_period=90, changepoint_scale=0.1):
 
 # Function: Evaluate Forecast Accuracy
 def evaluate_forecast_performance(rmse_values, mape_values, mse_values):
-    """
-    Calculates accuracy based on MAPE values.
-
-    Returns:
-        dict: Dictionary containing min, max, and average accuracy percentages.
-    """
     accuracy_values = [100 - (mape * 100) for mape in mape_values]
 
     return {
-        "Min Accuracy (%)": round(np.min(accuracy_values), 2),
-        "Max Accuracy (%)": round(np.max(accuracy_values), 2),
-        "Average Accuracy (%)": round(np.mean(accuracy_values), 2)
+        "Stability (Min) (%)": round(np.min(accuracy_values), 2),
+        "Stability (Max) (%)": round(np.max(accuracy_values), 2),
+        "Average Stability (%)": round(np.mean(accuracy_values), 2)
     }
