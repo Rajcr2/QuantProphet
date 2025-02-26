@@ -57,7 +57,7 @@ Other Utility Libraries : **matplotlib**, **numpy**.
 4.   Clone this Repository :
 
    ```
-   git clone https://github.com/RJ2ndgit/NGAIF-Stories_Chatbot.git
+   git clone https://github.com/Rajcr2/QuantProphet.git
    ```
 5.   Now, Install all mentioned required libraries in your environment.
 6.   After, that Run **'QP_main.py'** file from Terminal. To activate the dashboard on your browser.
