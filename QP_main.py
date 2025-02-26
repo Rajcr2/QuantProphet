@@ -9,7 +9,7 @@ from QP_data import preferred_format
 # Streamlit setup
 st.set_page_config(page_title="Quantitative Market Forecasting Using Prophet & Indicators", layout="wide")
 
-st.title("## Quant Prophet")
+st.title("Quant Prophet")
 
 # Sidebar: Upload Data
 uploaded_file = st.sidebar.file_uploader("Upload CSV file", type=["csv"])
